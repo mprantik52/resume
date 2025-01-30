@@ -10,7 +10,7 @@
     position: relative;
     border: 2px solid #2e2e38;
     /* font-family: Helvetica, Arial, sans-serif; */
-    overflow: auto;
+    overflow: hidden;
 }
 
 .left{
@@ -86,6 +86,7 @@
 .jio{
     border-right: 2px solid black;
     width: 200px;
+    padding-right: 10px;  /* Adds space between the content and the border on the right */
 }
 
 .jio p:first-child{
@@ -104,6 +105,7 @@
 .elite-softwares{
     border-right: 2px solid black;
     width: 200px;
+    padding-right: 10px;  /* Adds space between the content and the border on the right */
 }
 
 .elite-softwares p:first-child{
@@ -126,7 +128,7 @@
     color: white;
     opacity: 70%;
     position: absolute;
-    margin-top: 207.5px;
+    margin-top: 227.5px;
 }
 
 .profile-type{
